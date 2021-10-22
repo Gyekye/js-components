@@ -1,0 +1,55 @@
+html,
+body {
+    margin: 0;
+    padding: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+#overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(201, 201, 201, 0.8);
+    display: none;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+}
+
+#modal {
+    background-color: #fff;
+    padding: 20px;
+    height: 200px;
+    max-width: 500px;
+    margin: 0 auto;
+    position: relative;
+    top: 40%;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #256790;
+    border: none;
+    font-weight: bold;
+    color: #ffff;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #338bc2;
+}
+
+.btn:active,
+.close:active {
+    border: 1px solid#338bc2;
+}
+
+.danger {
+    background-color: crimson;
+}
+
+.danger:hover {
+    background-color: rgb(131, 9, 33);
+}
