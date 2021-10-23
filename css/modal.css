@@ -41,9 +41,8 @@ body {
     background-color: #338bc2;
 }
 
-.btn:active,
-.close:active {
-    border: 1px solid#338bc2;
+.btn:active {
+    border: 1px solid #338bc2;
 }
 
 .danger {

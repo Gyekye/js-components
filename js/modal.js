@@ -9,8 +9,6 @@ openModal.addEventListener("click", function() {
 });
 
 
-
-
 closeModal.addEventListener("click", function() {
     modalOverlay.style.display = "none";
 });
