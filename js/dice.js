@@ -55,7 +55,6 @@ function diceRoller(){
 resetBtn.addEventListener("click", function(){
     reset()
 })
- 
 function reset() {
     message.textContent = "Player 1 Turn"
     player1ScoreBoard.textContent = 0
