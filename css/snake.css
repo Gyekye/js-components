@@ -14,7 +14,7 @@ html, body {
 .square{
     width: 20px;
     height: 20px;
-    background-color: blue;
+    background-color: rgb(255, 255, 255);
 }
 
 .snake{
