@@ -4,19 +4,22 @@ html, body {
 }
 
 .grid {
-    width: 200px;
-    height: 200px;
     display: flex;
     flex-wrap: wrap;
+    width: 200px;
+    height: 200px;
     border: solid 2px black;
 }
 
-.square{
+.square {
     width: 20px;
     height: 20px;
-    background-color: rgb(255, 255, 255);
 }
 
-.snake{
-    background-color: chartreuse;
+.snake {
+    background-color: green;
+}
+
+.apple {
+    background-color: blue;
 }
