@@ -20,7 +20,7 @@ function createGrid() {
     square.classList.add('square')
     //put the element into our grid
     grid.appendChild(square)
-    //push it into a new squares array    
+    //push it into a new squares array
     squares.push(square)
     }
 }
@@ -63,7 +63,7 @@ function move() {
     //add square in direction we are heading
     currentSnake.unshift(currentSnake[0] + direction)
     //add styling so we can see it
-    
+
     //deal with snake head gets apple
     if (squares[currentSnake[0]].classList.contains('apple')) {
         //remove the class of apple
@@ -87,9 +87,6 @@ function move() {
         console.log(intervalTime)
         timerId = setInterval(move, intervalTime)
     }
-    
-    
-    
     squares[currentSnake[0]].classList.add('snake')
 }
 
@@ -103,7 +100,7 @@ function generateApple() {
         appleIndex = Math.floor(Math.random() * squares.length)
     } while (squares[appleIndex].classList.contains('snake'))
     squares[appleIndex].classList.add('apple')
-} 
+}
 generateApple()
 
 // 39 is right arrow
