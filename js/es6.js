@@ -23,3 +23,9 @@ console.log(`${name} is ${age} years old and lives in ${city}`);
 
  const [ richmond,john]  = ["richmond opoku", "John Way"];
 console.log(richmond, john);
+
+const ages = [12,132,4,55,6,77,8,8,8,98];
+
+for(const age of ages){
+    document.querySelector("#fullname").textContent += `${age}   `;
+}
