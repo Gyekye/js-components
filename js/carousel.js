@@ -31,3 +31,4 @@ function moveToPrevSlide() {
     }
     slides[slidePosition].classList.add("carousel-item-visible");
 }
+
