@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 400;
+}
+h1,h2{
+    font-weight: 700;
+}
+.post-form-group h2{
+    text-align: left;
+    color: #6D3CBF;
+    margin-top: 0;
+}
+
+header{
+    background-color: #451FAD;
+    padding: 0.3em;
+    color:#fff;
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: .5em;
+}
+.divider{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.create-post-container{
+    max-width: 20%;
+    padding: 2em;
+    background-color: #E2DAF3;
+    border-radius: 5px;
+    margin: 0 auto;
+    max-height: 400px;
+}
+.post-form-group{
+    display: flex;
+    flex-direction: column;
+}
+input#post-title,textarea#post-body{
+    margin-bottom: 2em;
+    margin-top: 0;
+    width: inherit;
+    padding: 1em 1.2em;
+    border: 1px solid #451FAD;
+    border-radius: 5px;
+}
+input#post-title:focus{
+    border: 2px solid #451FAD;
+}
+button#submit-post{
+   padding: 1.5em 3em;
+   background-color: #451FAD;
+   color: #E2DAF3;
+   text-align: center;
+   font-weight: 700;
+   font-size: .9rem;
+   border: none;
+   border-radius: 5px;
+   width: inherit;
+   cursor: pointer;
+}
+button#submit-post:hover{
+    background-color: #6D3CBF;
+    color: #ffff;
+}
+button#submit-post:active{
+    background-color: #6D3CBF;
+    color: #ffff;
+    border: 1px solid #6D3CBF;
+}
+
+.post{
+    background-color: #fff;
+    width: 72%;
+    border: 1px solid rgb(105, 105, 105);
+    border-radius: 5px;
+    max-height: fit-content;
+}
